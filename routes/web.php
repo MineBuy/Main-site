@@ -15,4 +15,4 @@ Route::get('/', 'PagesController@home');
 
 Route::group(['prefix' => 'auth'], function() {
     Auth::routes();
-});
+}); 
